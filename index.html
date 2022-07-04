@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,221 +13,225 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Pokedex</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-danger ">
             <div class="container ">
-              <a class="navbar-brand text-light">Pokedex</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link  text-light" aria-current="page" >Inicio</a>
-                  </li>
-                 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-light" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Categorias
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <a class="navbar-brand text-light">Pokedex</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link  text-light" aria-current="page">Inicio</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Categorias
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
                     </ul>
-                  </li>
-                 
-                </ul>
-                <form class="d-flex" role="Buscar un pokemon">
-                  <input class="form-control me-2" type="Buscar un pokemon" placeholder="Buscar un pokemon" aria-label="Buscar un pokemon">
-                  <button class="btn btn-outline-light" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form>
-              </div>
+                    <form class="d-flex" role="Buscar un pokemon">
+                        <input class="form-control me-2" type="Buscar un pokemon" placeholder="Buscar un pokemon"
+                            aria-label="Buscar un pokemon">
+                        <button class="btn btn-outline-light" type="submit"><i
+                                class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
             </div>
-          </nav>
-        
+        </nav>
+
     </header>
     <main>
         <section class="container py-4">
-        <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./img/pexels-carolina-castilla-arias-1716861.jpg" class="d-block w-100 " alt="pikachu">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/charizard.jpg" class="d-block w-100 " alt="charizard">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/pokebola.jpg" class="d-block w-100 " alt="pokebola">
-              </div>
+            <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/pexels-carolina-castilla-arias-1716861.jpg" class="d-block w-100 "
+                            alt="pikachu">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/charizard.jpg" class="d-block w-100 " alt="charizard">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/pokebola.jpg" class="d-block w-100 " alt="pokebola">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-    </section>
-    <section class="container py-4 ">
-        <article class="row">
-            <aside class="col-12 col-lg-3 col-md-6 my-5 px-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/bulba1.png" class="card-img-top" alt="Bulbasaur">
-                    <div class="card-body">
-                      <h5 class="card-title text-secondary">N.001</h5>
-                      <h4>Bulbasaur</h4>
-                      <div class="row my-3">
-                     <p class="pill">Planta</p>
-                     <p class="pill2">Veneno</p>
-                     </div>
-                      <a href="./pages/descripcion.html" class="btn btn-primary">Ver detalle</a>
+            </div>
+        </section>
+        <section class="container py-4 ">
+            <article class="row">
+                <aside class="col-12 col-lg-3 col-md-6 my-5 px-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/bulba1.png" class="card-img-top" alt="Bulbasaur">
+                        <div class="card-body">
+                            <h5 class="card-title text-secondary">N.001</h5>
+                            <h4>Bulbasaur</h4>
+                            <div class="row my-3">
+                                <p class="pill">Planta</p>
+                                <p class="pill2">Veneno</p>
+                            </div>
+                            <a href="./pages/descripcion.html" class="btn btn-primary">Ver detalle</a>
+                        </div>
                     </div>
-                  </div>
 
-            </aside>
-            <aside class="col-12 col-lg-3 col-md-6 my-5 px-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/bulba2.png" class="card-img-top" alt="Ivysaur">
-                    <div class="card-body">
-                      <h5 class="card-title text-secondary">N.°002</h5>
-                      <h4>Ivysaur</h4>
-                      <div class="row my-3">
-                      <p class="pill">Planta</p>
-                      <p class="pill2">Veneno</p>
+                </aside>
+                <aside class="col-12 col-lg-3 col-md-6 my-5 px-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/bulba2.png" class="card-img-top" alt="Ivysaur">
+                        <div class="card-body">
+                            <h5 class="card-title text-secondary">N.°002</h5>
+                            <h4>Ivysaur</h4>
+                            <div class="row my-3">
+                                <p class="pill">Planta</p>
+                                <p class="pill2">Veneno</p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Ver detalle</a>
+                        </div>
                     </div>
-                      <a href="#" class="btn btn-primary">Ver detalle</a>
+
+                </aside>
+                <aside class="col-12 col-lg-3 col-md-6 my-5 px-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/bulba3.png" class="card-img-top" alt="Venusaur">
+                        <div class="card-body">
+                            <h5 class="card-title">N.°003</h5>
+                            <h4>Venusaur</h4>
+                            <div class="row my-3">
+                                <p class="pill">Planta</p>
+                                <p class="pill2">Veneno</p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Ver detalle</a>
+                        </div>
                     </div>
-                  </div>
 
-            </aside>
-            <aside class="col-12 col-lg-3 col-md-6 my-5 px-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/bulba3.png" class="card-img-top" alt="Venusaur">
-                    <div class="card-body">
-                      <h5 class="card-title">N.°003</h5>
-                      <h4>Venusaur</h4>
-                      <div class="row my-3">
-                        <p class="pill">Planta</p>
-                        <p class="pill2">Veneno</p>
-                      </div>
-                      <a href="#" class="btn btn-primary">Ver detalle</a>
+                </aside>
+                <aside class="col-12 col-lg-3 col-md-6 my-5 px-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/char1.png" class="card-img-top" alt="Charmander">
+                        <div class="card-body">
+                            <h5 class="card-title">N.°004</h5>
+                            <h4>Charmander</h4>
+                            <div class="row my-3">
+                                <p class="pill3">Fuego</p>
+
+                            </div>
+                            <a href="#" class="btn btn-primary">Ver detalle</a>
+                        </div>
                     </div>
-                  </div>
 
-            </aside>
-            <aside class="col-12 col-lg-3 col-md-6 my-5 px-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/char1.png" class="card-img-top" alt="Charmander">
-                    <div class="card-body">
-                      <h5 class="card-title">N.°004</h5>
-                      <h4>Charmander</h4>
-                      <div class="row my-3">
-                        <p class="pill3">Fuego</p>
-                        
-                      </div>
-                      <a href="#" class="btn btn-primary">Ver detalle</a>
+                </aside>
+                <aside class="col-12 col-lg-3 col-md-6 my-5 px-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/char2.png" class="card-img-top" alt="Charmeleon">
+                        <div class="card-body">
+                            <h5 class="card-title">N.°005</h5>
+                            <h4>Charmeleon</h4>
+                            <div class="row my-3">
+                                <p class="pill3">Fuego</p>
+
+                            </div>
+                            <a href="#" class="btn btn-primary">Ver detalle</a>
+                        </div>
                     </div>
-                  </div>
 
-            </aside>
-            <aside class="col-12 col-lg-3 col-md-6 my-5 px-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/char2.png" class="card-img-top" alt="Charmeleon">
-                    <div class="card-body">
-                      <h5 class="card-title">N.°005</h5>
-                      <h4>Charmeleon</h4>
-                      <div class="row my-3">
-                        <p class="pill3">Fuego</p>
-                        
-                      </div>
-                      <a href="#" class="btn btn-primary">Ver detalle</a>
+                </aside>
+                <aside class="col-12 col-lg-3 col-md-6 my-5 px-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/char3.png" class="card-img-top" alt="Charizard">
+                        <div class="card-body">
+                            <h5 class="card-title">N.°006</h5>
+                            <h4>Charizard</h4>
+                            <div class="row my-3">
+                                <p class="pill3">Fuego</p>
+                                <p class="pill4">Volador</p>
+                            </div>
+                            <a href="#" class="btn btn-primary">Ver detalle</a>
+                        </div>
                     </div>
-                  </div>
 
-            </aside>
-            <aside class="col-12 col-lg-3 col-md-6 my-5 px-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/char3.png" class="card-img-top" alt="Charizard">
-                    <div class="card-body">
-                      <h5 class="card-title">N.°006</h5>
-                      <h4>Charizard</h4>
-                      <div class="row my-3">
-                        <p class="pill3">Fuego</p>
-                        <p class="pill4">Volador</p>
-                      </div>
-                      <a href="#" class="btn btn-primary">Ver detalle</a>
+                </aside>
+                <aside class="col-12 col-lg-3 col-md-6 my-5 px-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/squir1.png" class="card-img-top" alt="Squirtle">
+                        <div class="card-body">
+                            <h5 class="card-title">N.°007</h5>
+                            <h4>Squirtle</h4>
+                            <div class="row my-3">
+                                <p class="pill5">Agua</p>
+
+                            </div>
+                            <a href="#" class="btn btn-primary">Ver detalle</a>
+                        </div>
                     </div>
-                  </div>
 
-            </aside>
-            <aside class="col-12 col-lg-3 col-md-6 my-5 px-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/squir1.png" class="card-img-top" alt="Squirtle">
-                    <div class="card-body">
-                      <h5 class="card-title">N.°007</h5>
-                      <h4>Squirtle</h4>
-                      <div class="row my-3">
-                        <p class="pill5">Agua</p>
-                       
-                      </div>
-                      <a href="#" class="btn btn-primary">Ver detalle</a>
+                </aside>
+                <aside class="col-12 col-lg-3 col-md-6 my-5 px-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/squir2.png" class="card-img-top" alt="Wartortle">
+                        <div class="card-body">
+                            <h5 class="card-title">N.°008</h5>
+                            <h4>Wartortle</h4>
+                            <div class="row my-3">
+                                <p class="pill5">Agua</p>
+
+                            </div>
+                            <a href="#" class="btn btn-primary">Ver detalle</a>
+                        </div>
                     </div>
-                  </div>
 
-            </aside>
-            <aside class="col-12 col-lg-3 col-md-6 my-5 px-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/squir2.png" class="card-img-top" alt="Wartortle">
-                    <div class="card-body">
-                      <h5 class="card-title">N.°008</h5>
-                      <h4>Wartortle</h4>
-                     <div class="row my-3">
-                        <p class="pill5">Agua</p>
-                       
-                      </div>
-                      <a href="#" class="btn btn-primary">Ver detalle</a>
+                </aside>
+                <aside class="col-12 col-lg-3 col-md-6 my-5 px-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/squir3.png" class="card-img-top" alt="Wartortle">
+                        <div class="card-body">
+                            <h5 class="card-title">N.°008</h5>
+                            <h4>Wartortle</h4>
+                            <div class="row my-3">
+                                <p class="pill5">Agua</p>
+
+                            </div>
+                            <a href="#" class="btn btn-primary">Ver detalle</a>
+                        </div>
                     </div>
-                  </div>
 
-            </aside>
-            <aside class="col-12 col-lg-3 col-md-6 my-5 px-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/squir3.png" class="card-img-top" alt="Wartortle">
-                    <div class="card-body">
-                      <h5 class="card-title">N.°008</h5>
-                      <h4>Wartortle</h4>
-                     <div class="row my-3">
-                        <p class="pill5">Agua</p>
-                       
-                      </div>
-                      <a href="#" class="btn btn-primary">Ver detalle</a>
-                    </div>
-                  </div>
-
-            </aside>
-            
-            
-
-            
-        </article>
-        
-            
-               
-        
-    </section>
+                </aside>
+            </article>
+        </section>
     </main>
     <footer class="bg-dark py-4 text-light text-center py-5">
         <div class="container">
-         <p>&copy; Todos los derechos reservados.</p>
+            <p>&copy; Todos los derechos reservados.</p>
         </div>
-      </footer>
+    </footer>
 
 </body>
 <script src="./js/bootstrap.min.js"></script>
+
 </html>
